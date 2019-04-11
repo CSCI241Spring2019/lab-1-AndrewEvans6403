@@ -1,0 +1,794 @@
+Script started on Thu 11 Apr 2019 09:56:38 AM PDT
+evansa30@CF165-21:~$ ls
+Desktop      IdeaProjects		   Music      typescript
+Documents    java_error_in_IDEA_10497.log  Pictures   Videos
+Downloads    java_error_in_IDEA_4289.log   Public
+gitlab-demo  java_error_in_IDEA_4920.log   Templates
+evansa30@CF165-21:~$ cd[K[Kmkdircdci[K[K[K[K csci241
+evansa30@CF165-21:~$ cd csci241
+evansa30@CF165-21:~/csci241$ ls
+evansa30@CF165-21:~/csci241$ git clone https://github.com/CSCI241Spring2019/lab- 1-AndrewEvans6403.git
+Cloning into 'lab-1-AndrewEvans6403'...
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)   [Kremote: Counting objects:  25% (2/8)   [Kremote: Counting objects:  37% (3/8)   [Kremote: Counting objects:  50% (4/8)   [Kremote: Counting objects:  62% (5/8)   [Kremote: Counting objects:  75% (6/8)   [Kremote: Counting objects:  87% (7/8)   [Kremote: Counting objects: 100% (8/8)   [Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0[K
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+Checking connectivity... done.
+evansa30@CF165-21:~/csci241$ git config --global user.name ""[K[CAndrew Evans [K"
+evansa30@CF165-21:~/csci241$ git config --global user.email "evansa30![K@wwu.edi[Ku"
+evansa30@CF165-21:~/csci241$ touch writeup,[K.txt
+evansa30@CF165-21:~/csci241$ git add writeup.txt
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+evansa30@CF165-21:~/csci241$ git init add writeup.txt
+usage: git init [-q | --quiet] [--bare] [--template=<template-directory>] [--shared[=<permissions>]] [<directory>]
+evansa30@CF165-21:~/csci241$ git init
+Initialized empty Git repository in /home/evansa30/csci241/.git/
+evansa30@CF165-21:~/csci241$ git add writeup.txt
+evansa30@CF165-21:~/csci241$ git commit -m "Added empty writeup"
+[master (root-commit) 1bf7ee8] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+evansa30@CF165-21:~/csci241$ ls
+lab-1-AndrewEvans6403  writeup.txt
+evansa30@CF165-21:~/csci241$ cd wr[K[Klab-1-AndrewEvans6403/
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ touch writeup.e[Ktxt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git add writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git commit -m "add[K[K[KAdded empty wr ti[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kwr iteup
+> g[K
+> 
+> 
+> "
+[master 5590547] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ls
+Password for 'https://ls@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-AndrewEvans6403.git/'
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ i[Kgit push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': andrew.evans, .6403@hotmail.com
+Password for 'https://andrew.evans.6403@hotmail.com@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 315 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-AndrewEvans6403.git
+   1523c09..5590547  master -> master
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ ls
+build.gradle  src  writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ cd writeup.txt 
+bash: cd: writeup.txt: Not a directory
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ vi emp[K[K[Kwriteup.txt 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"writeup.txt" 0L, 0C[>c[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll]2;writeup.txt (~/csci241/lab-1-AndrewEvans6403) - VIM]1;writeup.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"writeup.txt" 0L, 0C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?12l[?25h[?25ln[24;63H1,2]2;writeup.txt + (~/csci241/lab-1-AndrewEvans6403) - VIM]1;writeup.txt[1;2H[?12l[?25h[?25l[1;1H[K[24;65H1[1;1H[?12l[?25h[?25lA[24;65H2[1;2H[?12l[?25h[?25ln[24;65H3[1;3H[?12l[?25h[?25ld[24;65H4[1;4H[?12l[?25h[?25lr[24;65H5[1;5H[?12l[?25h[?25le[24;65H6[1;6H[?12l[?25h[?25lw[24;65H7[1;7H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25lE[24;65H9[1;9H[?12l[?25h[?25lv[24;65H10[1;10H[?12l[?25h[?25la[24;66H1[1;11H[?12l[?25h[?25ln[24;66H2[1;12H[?12l[?25h[?25ls[24;66H3[1;13H[?12l[?25h[?25l[24;66H4[1;14H[?12l[?25h[?25l[2;1H[K[24;63H2,1 [2;1H[?12l[?25h[?25l:[24;65H2[2;2H[?12l[?25h[?25lq[24;65H3[2;3H[?12l[?25h[?25l[3;1H[K[24;63H3,1[3;1H[?12l[?25h[?25l[94m~                                                                               [m[24;63H2,3[2;3H[?12l[?25h[?25l[2;2H[K[24;65H2[2;2H[?12l[?25h[?25l[2;1H[K[24;65H1[2;1H[?12l[?25h[24;1H[K[2;1H[?25l[24;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[97m[41mE37: No write since last change (add ! to override)[m[11C2,0-1[9CAll[2;1H[?12l[?25h[?25l[24;63H1,13 [1;13H[?12l[?25h[?25l[24;66H2[1;12H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25l[24;66H0[1;10H[?12l[?25h[?25l[24;65H9 [1;9H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;65H1[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,14[10CAll[1;14H[?12l[?25h[?25l[24;66H3[1;13H[?12l[?25h[?25lA[24;66H4[1;14H[?12l[?25h[?25l[1;13H[K[24;66H3[1;13H[?12l[?25h[24;1H[K[1;12H[?25l[24;63H1,12[10CAll[1;12H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H1,12 [1;12H[?12l[?25h[?25l[24;66H1[1;11H[?12l[?25h[?25l[24;66H0[1;10H[?12l[?25h[?25l[24;65H9 [1;9H[?12l[?25h[?25l[24;65H8[1;8H[?12l[?25h[?25l[24;65H7[1;7H[?12l[?25h[?25l[24;65H6[1;6H[?12l[?25h[?25l[24;65H5[1;5H[?12l[?25h[?25l[24;65H4[1;4H[?12l[?25h[?25l[24;65H3[1;3H[?12l[?25h[?25l[24;65H2[1;2H[?12l[?25h[?25l[24;65H1[1;1H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;63H[K[24;63H1,13[10CAll[1;13H[?12l[?25h[?25l[1;12H[K[24;66H2[1;12H[?12l[?25h[?25ls[24;66H3[1;13H[?12l[?25h[?25l[24;66H4[1;14H[?12l[?25h[24;1H[K[1;13H[?25l[24;63H1,13[10CAll[1;13H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[97m[41mE37: No write since last change (add ! to override)[m[11C1,13[10CAll[1;13H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25h[?25l"writeup.txt" 2L, 15C written[33C1,13[10CAll]2;writeup.txt (~/csci241/lab-1-AndrewEvans6403) - VIM]1;writeup.txt[24;63H[K[24;63H1,13[10CAll[1;13H[?12l[?25h[?25l[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hw[?25l[?12l[?25h[?25l[24;2H[K[24;2H[?12l[?25hq[?25l[?12l[?25h[?25l]2;Terminal]1;Terminal[24;1H[K[24;1H[?1l>[?12l[?25h[?1049levansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git add writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git commit -m "Added part 1 ( names) to writeup"
+[master 2835223] Added part 1 (names) to writeup
+ 1 file changed, 2 insertions(+)
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git statuscommit -m "Added part 1 (nnames) to writeup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Padd writeup.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi writeup.txt cd[C[C[C[C[C[C[C[C[C[C[C[C[Cvi[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"writeup.txt" 2L, 15C[>c[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll]2;writeup.txt (~/csci241/lab-1-AndrewEvans6403) - VIM]1;writeup.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"writeup.txt" 2L, 15C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [m[22;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [m[21;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [m[20;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [m[19;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [m[18;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [m[16;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [m[17;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [m[18;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [m[19;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [m[20;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [m[21;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [m[22;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H2,0-1[9CAll[2;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;63H2,0-1[9CAll[2;1H[?12l[?25h[?25l[25;63H1,1  [1;1H[?12l[?25h[?25l[25;1H[1m-- INSERT --[m[25;63H[K[25;63H2,1[11CTop[2;24r[2;1H[L[1;25r[25;63H[K[25;63H2,1[11CAll]2;writeup.txt + (~/csci241/lab-1-AndrewEvans6403) - VIM]1;writeup.txt[2;1H[?12l[?25h[?25lb[25;65H2[2;2H[?12l[?25h[?25lb[25;65H3[2;3H[?12l[?25h[?25ly[25;65H4[2;4H[?12l[?25h[?25l[2;3H[K[25;65H3[2;3H[?12l[?25h[?25l[2;2H[K[25;65H2[2;2H[?12l[?25h[?25l[2;1H[K[25;65H1[2;1H[?12l[?25h[?25l[1;24r[24;1H
+[1;25r[1;1HAndrew Evans[24;1H[94m~                                                                               [m[25;63H[K[25;63H1,14[10CAll[1;14H[?12l[?25h[?25l[2;24r[2;1H[L[1;25r[25;63H[K[25;63H2,1[11CAll[2;1H[?12l[?25h[?25lH[25;65H2[2;2H[?12l[?25h[?25l[2;1H[K[25;65H1[2;1H[?12l[?25h[?25l[1;24r[24;1H
+[1;25r[1;1HAndrew Evans[24;1H[94m~                                                                               [m[25;63H[K[25;63H1,14[10CAll[1;14H[?12l[?25h[?25l[25;63H2,1 [2;1H[?12l[?25h[?25lH[25;65H2[2;2H[?12l[?25h[?25lb[25;65H3[2;3H[?12l[?25h[?25l[2;2H[K[25;65H2[2;2H[?12l[?25h[?25lo[25;65H3[2;3H[?12l[?25h[?25lb[25;65H4[2;4H[?12l[?25h[?25lb[25;65H5[2;5H[?12l[?25h[?25ly[25;65H6[2;6H[?12l[?25h[?25l:[25;65H7[2;7H[?12l[?25h[?25l[25;65H8[2;8H[?12l[?25h[?25lI[25;65H9[2;9H[?12l[?25h[?25l[25;65H10[2;10H[?12l[?25h[?25ll[25;66H1[2;11H[?12l[?25h[?25li[25;66H2[2;12H[?12l[?25h[?25lk[25;66H3[2;13H[?12l[?25h[?25le[25;66H4[2;14H[?12l[?25h[?25l[25;66H5[2;15H[?12l[?25h[?25lt[25;66H6[2;16H[?12l[?25h[?25lo[25;66H7[2;17H[?12l[?25h[?25l[25;66H8[2;18H[?12l[?25h[?25ls[25;66H9[2;19H[?12l[?25h[?25lk[25;65H20[2;20H[?12l[?25h[?25la[25;66H1[2;21H[?12l[?25h[?25lt[25;66H2[2;22H[?12l[?25h[?25le[25;66H3[2;23H[?12l[?25h[?25lb[25;66H4[2;24H[?12l[?25h[?25lo[25;66H5[2;25H[?12l[?25h[?25la[25;66H6[2;26H[?12l[?25h[?25lr[25;66H7[2;27H[?12l[?25h[?25ld[25;66H8[2;28H[?12l[?25h[25;1H[K[2;27H[?25l[25;63H2,27[10CAll[2;27H[?12l[?25h[?25l[25;66H6[2;26H[?12l[?25h[?25l[25;66H7[2;27H[?12l[?25h[?25l[25;63H[K[25;1H:[?12l[?25hw[?25l[?12l[?25h[?25l"writeup.txt" 2L, 42C written[33C2,27[10CAll]2;writeup.txt (~/csci241/lab-1-AndrewEvans6403) - VIM]1;writeup.txt[25;63H[K[25;63H2,27[10CAll[2;27H[?12l[?25h[?25l[?12l[?25h[?25l[25;1H[K[25;1H:[?12l[?25hq[?25l[?12l[?25h[?25l]2;Terminal]1;Terminal[25;1H[K[25;1H[?1l>[?12l[?25h[?1049levansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ touch username.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git add username.tt[Kxt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git commit -m "add[K[K[KAdded em[K[K[K username  file with [K[K[K[K[K[K"
+[master b6c9b98] Added username file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 username.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git commit -m "Added username  file"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Padd username.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pvi writeup.txt [K[K[K[K[K[K[K[K[K[K[K[K
+build.gradle  .git/         src/          username.txt  writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ vi username.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;25r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[25;1H"username.txt" 0L, 0C[>c[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;63H0,0-1[9CAll]2;username.txt (~/csci241/lab-1-AndrewEvans6403) - VIM]1;username.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;63H0,0-1[9CAll"username.txt" 0L, 0C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[25;1H[1m-- INSERT --[m[25;13H[K[25;63H0,1[11CAll[1;1H[?12l[?25h[?25ln[25;63H1,2]2;username.txt + (~/csci241/lab-1-AndrewEvans6403) - VIM]1;username.txt[1;2H[?12l[?25h[?25ld[25;65H3[1;3H[?12l[?25h[?25lr[25;65H4[1;4H[?12l[?25h[?25le[25;65H5[1;5H[?12l[?25h[?25lw[25;65H6[1;6H[?12l[?25h[?25l[1;5H[K[25;65H5[1;5H[?12l[?25h[?25l[1;4H[K[25;65H4[1;4H[?12l[?25h[?25l[1;3H[K[25;65H3[1;3H[?12l[?25h[?25l[1;2H[K[25;65H2[1;2H[?12l[?25h[?25l[1;1H[K[25;65H1[1;1H[?12l[?25h[?25lA[25;65H2[1;2H[?12l[?25h[?25ln[25;65H3[1;3H[?12l[?25h[?25ld[25;65H4[1;4H[?12l[?25h[?25lr[25;65H5[1;5H[?12l[?25h[?25le[25;65H6[1;6H[?12l[?25h[?25lw[25;65H7[1;7H[?12l[?25h[?25l[25;65H8[1;8H[?12l[?25h[?25lE[25;65H9[1;9H[?12l[?25h[?25lv[25;65H10[1;10H[?12l[?25h[?25la[25;66H1[1;11H[?12l[?25h[?25ln[25;66H2[1;12H[?12l[?25h[?25ls[25;66H3[1;13H[?12l[?25h[?25l[25;66H4[1;14H[?12l[?25h[?25l[25;66H3[1;13H[?12l[?25h[?25lm[25;66H4[1;14H[?12l[?25h[?25l[1;13H[K[25;66H3[1;13H[?12l[?25h[?25l,[25;66H4[1;14H[?12l[?25h[?25l[1;13H[K[25;66H3[1;13H[?12l[?25h[?25l,[25;66H4[1;14H[?12l[?25h[?25le[25;66H5[1;15H[?12l[?25h[?25lv[25;66H6[1;16H[?12l[?25h[?25la[25;66H7[1;17H[?12l[?25h[?25ln[25;66H8[1;18H[?12l[?25h[?25ls[25;66H9[1;19H[?12l[?25h[?25la[25;65H20[1;20H[?12l[?25h[?25l3[25;66H1[1;21H[?12l[?25h[?25l0[25;66H2[1;22H[?12l[?25h[?25l,[25;66H3[1;23H[?12l[?25h[?25la[25;66H4[1;24H[?12l[?25h[?25ln[25;66H5[1;25H[?12l[?25h[?25ld[25;66H6[1;26H[?12l[?25h[?25lr[25;66H7[1;27H[?12l[?25h[?25le[25;66H8[1;28H[?12l[?25h[?25lw[25;66H9[1;29H[?12l[?25h[?25l.[25;65H30[1;30H[?12l[?25h[?25le[25;66H1[1;31H[?12l[?25h[?25lv[25;66H2[1;32H[?12l[?25h[?25la[25;66H3[1;33H[?12l[?25h[?25ln[25;66H4[1;34H[?12l[?25h[?25ls[25;66H5[1;35H[?12l[?25h[?25l.[25;66H6[1;36H[?12l[?25h[?25l6[25;66H7[1;37H[?12l[?25h[?25l4[25;66H8[1;38H[?12l[?25h[?25l0[25;66H9[1;39H[?12l[?25h[?25l3[25;65H40[1;40H[?12l[?25h[?25l@[25;66H1[1;41H[?12l[?25h[?25lh[25;66H2[1;42H[?12l[?25h[?25lo[25;66H3[1;43H[?12l[?25h[?25lt[25;66H4[1;44H[?12l[?25h[?25lm[25;66H5[1;45H[?12l[?25h[?25la[25;66H6[1;46H[?12l[?25h[?25li[25;66H7[1;47H[?12l[?25h[?25ll[25;66H8[1;48H[?12l[?25h[?25l.[25;66H9[1;49H[?12l[?25h[?25lc[25;65H50[1;50H[?12l[?25h[?25lo[25;66H1[1;51H[?12l[?25h[?25lm[25;66H2[1;52H[?12l[?25h[25;1H[K[1;51H[?25l[25;63H1,51[10CAll[1;51H[?12l[?25h[?25l[25;63H[K[25;1H:[?12l[?25hw[?25l[?12l[?25h[?25l"username.txt" 1L, 52C written[32C1,51[10CAll]2;username.txt (~/csci241/lab-1-AndrewEvans6403) - VIM]1;username.txt[25;63H[K[25;63H1,51[10CAll[1;51H[?12l[?25h[?25l[?12l[?25h[?25l[25;1H[K[25;1H:[?12l[?25hq[?25l[?12l[?25h[?25l]2;Terminal]1;Terminal[25;1H[K[25;1H[?1l>[?12l[?25h[?1049levansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git commit -m "D[KF[Kfi[K[KFilled in user name,[K.txt" 
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+	[31mmodified:   username.txt[m
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git push 
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': andrew.evans.6403@hotmail.com
+Password for 'https://andrew.evans.6403@hotmail.com@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 549 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/CSCI241Spring2019/lab-1-AndrewEvans6403.git
+   5590547..b6c9b98  master -> master
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git push commit -m "Filled in usernname.txt" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pvi username.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;25r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[25;1H"username.txt" 1L, 52C[>c[1;1HAndrew Evans,evansa30,andrew.evans.6403@hotmail.com
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;63H1,1[11CAll]2;username.txt (~/csci241/lab-1-AndrewEvans6403) - VIM]1;username.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans,evansa30,andrew.evans.6403@hotmail.com
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;63H1,1[11CAll"username.txt" 1L, 52C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[25;65H2[1;2H[?12l[?25h[?25l[25;65H3[1;3H[?12l[?25h[?25l[25;65H4[1;4H[?12l[?25h[?25l[25;65H5[1;5H[?12l[?25h[?25l[25;65H6[1;6H[?12l[?25h[?25l[25;65H7[1;7H[?12l[?25h[?25l[25;65H8[1;8H[?12l[?25h[?25l[25;65H9[1;9H[?12l[?25h[?25l[25;65H10[1;10H[?12l[?25h[?25l[25;66H1[1;11H[?12l[?25h[?25l[25;66H2[1;12H[?12l[?25h[?25l[25;66H3[1;13H[?12l[?25h[?25l[25;66H4[1;14H[?12l[?25h[?25l[25;66H5[1;15H[?12l[?25h[?25l[25;66H6[1;16H[?12l[?25h[?25l[25;66H7[1;17H[?12l[?25h[?25l[25;66H8[1;18H[?12l[?25h[?25l[25;66H9[1;19H[?12l[?25h[?25l[25;65H20[1;20H[?12l[?25h[?25l[25;66H1[1;21H[?12l[?25h[?25l[25;66H2[1;22H[?12l[?25h[?25l[25;66H3[1;23H[?12l[?25h[?25l[25;66H4[1;24H[?12l[?25h[?25l[25;66H5[1;25H[?12l[?25h[?25l[25;66H6[1;26H[?12l[?25h[?25l[25;66H7[1;27H[?12l[?25h[?25l[25;66H8[1;28H[?12l[?25h[?25l[25;66H9[1;29H[?12l[?25h[?25l[25;65H30[1;30H[?12l[?25h[?25l[25;66H1[1;31H[?12l[?25h[?25l[25;66H2[1;32H[?12l[?25h[?25l[25;66H3[1;33H[?12l[?25h[?25l[25;66H4[1;34H[?12l[?25h[?25l[25;66H5[1;35H[?12l[?25h[?25l[25;66H6[1;36H[?12l[?25h[?25l[25;66H7[1;37H[?12l[?25h[?25l[25;66H8[1;38H[?12l[?25h[?25l[25;66H9[1;39H[?12l[?25h[?25l[25;65H40[1;40H[?12l[?25h[?25l[25;66H1[1;41H[?12l[?25h[?25l[25;66H2[1;42H[?12l[?25h[?25l[25;66H3[1;43H[?12l[?25h[?25l[25;66H4[1;44H[?12l[?25h[?25l[25;66H5[1;45H[?12l[?25h[?25l[25;66H6[1;46H[?12l[?25h[?25l[25;66H7[1;47H[?12l[?25h[?25l[25;66H8[1;48H[?12l[?25h[?25l[25;66H9[1;49H[?12l[?25h[?25l[25;65H50[1;50H[?12l[?25h[?25l[25;66H1[1;51H[?12l[?25h[?25l[25;1H[K[25;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"username.txt" 1L, 52C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049levansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git psuh [K[K[K[Kush 
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': andrew.evnas,    ans.6403@g hotmial   ail.com
+Password for 'https://andrew.evans.6403@hotmail.com@github.com': 
+Everything up-to-date
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git commit
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   username.txt[m
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git commit 0[K-,[Km
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit hook
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git commit -m " [KAdded username .txt information [K" 
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   username.txt[m
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git c[K[K[K[K[Kvi username.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;25r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[25;1H"username.txt" 1L, 52C[>c[1;1HAndrew Evans,evansa30,andrew.evans.6403@hotmail.com
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;63H1,1[11CAll]2;username.txt (~/csci241/lab-1-AndrewEvans6403) - VIM]1;username.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans,evansa30,andrew.evans.6403@hotmail.com
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;63H1,1[11CAll"username.txt" 1L, 52C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[25;1H[K[25;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"username.txt" 1L, 52C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049levansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git add writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git add username.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git add username.txt[1Pwriteup.txt[4Pvi username.txtgit commit -m "Added username..txt information" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pvi username.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add writeup.txtusername.txt[Kgit add username.txt[1Pwriteup.txt[4Pvi username.txtgit commit -m "Added username..txt information" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[1Ppush vi username.txt[6Pgit push commit -m "Filled in usernname.txt" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi username.txt[6Pgit push 
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': andrew.evans.6403@hotmail.com
+Password for 'https://andrew.evans.6403@hotmail.com@github.com': 
+Everything up-to-date
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ 
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ 
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git push add username.txt[1Pwriteup.txt[4Pvi username.txtgit commit -m "Added username..txt information" 
+[master efecd51] Added username.txt information
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ h[Kgit push 
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': andrew.evans.6403@hotmail.com
+Password for 'https://andrew.evans.6403@hotmail.com@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 452 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-AndrewEvans6403.git
+   b6c9b98..efecd51  master -> master
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git checkout
+Your branch is up-to-date with 'origin/master'.
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git reset
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git rm 
+build.gradle  .git/         src/          username.txt  writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git rm ==[K[K[K[K[K[K[K[K[Kgit [K[K[K[Kfir[K[K[Kgit mv
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git blame 
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git log
+[?1h=[33mcommit efecd51986dc6f8d4c517c5539e462473a700c47[m[m
+Author: Andrew Evans <evansa30@wwu.edu>[m
+Date:   Thu Apr 11 10:43:27 2019 -0700[m
+[m
+    Added username.txt information[m
+[m
+[33mcommit b6c9b987bfcdc3b510a0cc75351d6fdf300b08c3[m[m
+Author: Andrew Evans <evansa30@wwu.edu>[m
+Date:   Thu Apr 11 10:32:45 2019 -0700[m
+[m
+    Added username file[m
+[m
+[33mcommit 28352239c81cfcda267438ff8b2b1026da2f2f3a[m[m
+Author: Andrew Evans <evansa30@wwu.edu>[m
+Date:   Thu Apr 11 10:29:10 2019 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 55905473382de00fcf5b98af2c92f44554dd6f6c[m[m
+Author: Andrew Evans <evansa30@wwu.edu>[m
+Date:   Thu Apr 11 10:15:31 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+:[K[K[K:[K[K:[K[K:[K[K [KESCESC[KESCESC[K:[K[K[?1l>evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git log[Kgit log[Kcls
+No command 'cls' found, but there are 18 similar ones
+cls: command not found
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ c[Kc[Kcla[Kear
+[3;J[H[2Jevansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git brand [K[Kch question3
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ got[K[Kit checkotu[K[Kutqu[K[K question3
+Switched to branch 'question3'
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ vi 
+build.gradle  .git/         src/          username.txt  writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ vi [K writeup.txt
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;25r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[25;1H"writeup.txt" 2L, 42C[>c[1;1HAndrew Evans
+Hobby: I like to skateboard
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;63H1,1[11CAll]2;writeup.txt (~/csci241/lab-1-AndrewEvans6403) - VIM]1;writeup.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HAndrew Evans
+Hobby: I like to skateboard
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [m[25;63H1,1[11CAll"writeup.txt" 2L, 42C[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[25;63H2[2;1H[?12l[?25h[?25l[25;65H2[2;2H[?12l[?25h[?25l[25;65H3[2;3H[?12l[?25h[?25l[25;65H4[2;4H[?12l[?25h[?25l[25;65H5[2;5H[?12l[?25h[?25l[25;65H6[2;6H[?12l[?25h[?25l[25;65H7[2;7H[?12l[?25h[?25l[25;65H8[2;8H[?12l[?25h[?25l[25;65H9[2;9H[?12l[?25h[?25l[25;65H10[2;10H[?12l[?25h[?25l[25;66H1[2;11H[?12l[?25h[?25l[25;66H2[2;12H[?12l[?25h[?25l[25;66H3[2;13H[?12l[?25h[?25l[25;66H4[2;14H[?12l[?25h[?25l[25;66H5[2;15H[?12l[?25h[?25l[25;66H6[2;16H[?12l[?25h[?25l[25;66H7[2;17H[?12l[?25h[?25l[25;66H8[2;18H[?12l[?25h[?25l[25;66H9[2;19H[?12l[?25h[?25l[25;65H20[2;20H[?12l[?25h[?25l[25;66H1[2;21H[?12l[?25h[?25l[25;66H2[2;22H[?12l[?25h[?25l[25;66H3[2;23H[?12l[?25h[?25l[25;66H4[2;24H[?12l[?25h[?25l[25;66H5[2;25H[?12l[?25h[?25l[25;66H6[2;26H[?12l[?25h[?25l[25;66H7[2;27H[?12l[?25h[?25l[25;1H[1m-- INSERT --[m[25;13H[K[25;63H2,27[10CAll[2;27H[K]2;writeup.txt + (~/csci241/lab-1-AndrewEvans6403) - VIM]1;writeup.txt[2;27H[?12l[?25h[?25ld[25;66H8[2;28H[?12l[?25h[?25l[3;1H[K[25;63H3,1 [3;1H[?12l[?25h[?25lF[25;65H2[3;2H[?12l[?25h[?25la[25;65H3[3;3H[?12l[?25h[?25lv[25;65H4[3;4H[?12l[?25h[?25lo[25;65H5[3;5H[?12l[?25h[?25lr[25;65H6[3;6H[?12l[?25h[?25li[25;65H7[3;7H[?12l[?25h[?25lt[25;65H8[3;8H[?12l[?25h[?25le[25;65H9[3;9H[?12l[?25h[?25l[25;65H10[3;10H[?12l[?25h[?25ls[25;66H1[3;11H[?12l[?25h[?25lo[25;66H2[3;12H[?12l[?25h[?25ln[25;66H3[3;13H[?12l[?25h[?25lg[25;66H4[3;14H[?12l[?25h[?25l:[25;66H5[3;15H[?12l[?25h[?25l[25;66H6[3;16H[?12l[?25h[?25lD[25;66H7[3;17H[?12l[?25h[?25le[25;66H8[3;18H[?12l[?25h[?25ls[25;66H9[3;19H[?12l[?25h[?25lp[25;65H20[3;20H[?12l[?25h[?25la[25;66H1[3;21H[?12l[?25h[?25lc[25;66H2[3;22H[?12l[?25h[?25li[25;66H3[3;23H[?12l[?25h[?25lt[25;66H4[3;24H[?12l[?25h[?25lo[25;66H5[3;25H[?12l[?25h[?25l[25;66H6[3;26H[?12l[?25h[?25lb[25;66H7[3;27H[?12l[?25h[?25ly[25;66H8[3;28H[?12l[?25h[?25l[25;66H9[3;29H[?12l[?25h[?25lL[25;65H30[3;30H[?12l[?25h[?25lu[25;66H1[3;31H[?12l[?25h[?25li[25;66H2[3;32H[?12l[?25h[?25ls[25;66H3[3;33H[?12l[?25h[?25l[25;66H4[3;34H[?12l[?25h[?25lF[25;66H5[3;35H[?12l[?25h[?25lo[25;66H6[3;36H[?12l[?25h[?25ln[25;66H7[3;37H[?12l[?25h[?25ls[25;66H8[3;38H[?12l[?25h[?25li[25;66H9[3;39H[?12l[?25h[?25l[25;65H40[3;40H[?12l[?25h[?25lf[25;66H1[3;41H[?12l[?25h[?25lt[25;66H2[3;42H[?12l[?25h[?25l[25;66H3[3;43H[?12l[?25h[?25lD[25;66H4[3;44H[?12l[?25h[?25la[25;66H5[3;45H[?12l[?25h[?25ld[25;66H6[3;46H[?12l[?25h[?25ld[25;66H7[3;47H[?12l[?25h[?25ly[25;66H8[3;48H[?12l[?25h[?25l[25;66H9[3;49H[?12l[?25h[?25ly[25;65H50[3;50H[?12l[?25h[?25la[25;66H1[3;51H[?12l[?25h[?25ln[25;66H2[3;52H[?12l[?25h[?25lk[25;66H3[3;53H[?12l[?25h[?25le[25;66H4[3;54H[?12l[?25h[?25le[25;66H5[3;55H[?12l[?25h[?25l[3;54H[K[25;66H4[3;54H[?12l[?25h[?25l[3;53H[K[25;66H3[3;53H[?12l[?25h[?25l[3;52H[K[25;66H2[3;52H[?12l[?25h[?25l[3;51H[K[25;66H1[3;51H[?12l[?25h[?25l[3;50H[K[25;66H0[3;50H[?12l[?25h[?25l[3;49H[K[25;65H49[3;49H[?12l[?25h[?25lY[25;65H50[3;50H[?12l[?25h[?25la[25;66H1[3;51H[?12l[?25h[?25ln[25;66H2[3;52H[?12l[?25h[?25lk[25;66H3[3;53H[?12l[?25h[?25le[25;66H4[3;54H[?12l[?25h[?25le[25;66H5[3;55H[?12l[?25h[?25l[4;1H[K[25;63H4,1 [4;1H[?12l[?25h[25;1H[K[4;1H[?25l[25;63H4,0-1[9CAll[4;1H[?12l[?25h[?25l[25;63H[K[25;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"writeup.txt" 4L, 98C written]2;Terminal]1;Terminal
+[?1l>[?12l[?25h[?1049levansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git add writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git commit -m "Added line 3 w riteup.txt" 
+[question3 c05da07] Added line 3 writeup.txt
+ 1 file changed, 2 insertions(+)
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ p[Kgit merge master
+Already up-to-date.
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git branch -d question3
+error: Cannot delete the branch 'question3' which you are currently on.
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git branch master[K[K[K[K[K[K[K[K[K[K[K[K[K[Kc[K cegcj[K[K[K[Kheckout 
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git master
+git: 'master' is not a git command. See 'git --help'.
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git checkot[Kut master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit branch -d question [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git branch -d question3
+error: The branch 'question3' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D question3'.
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ git branch -D question3
+Deleted branch question3 (was c05da07).
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ cd
+evansa30@CF165-21:~$ ls
+csci241    Downloads	 java_error_in_IDEA_10497.log  Music	 Templates
+Desktop    gitlab-demo	 java_error_in_IDEA_4289.log   Pictures  typescript
+Documents  IdeaProjects  java_error_in_IDEA_4920.log   Public	 Videos
+evansa30@CF165-21:~$ cd [K[K[Kcd csci241/
+evansa30@CF165-21:~/csci241$ ls
+lab-1-AndrewEvans6403  writeup.txt
+evansa30@CF165-21:~/csci241$ cd lab-1-AndrewEvans6403/
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ ls
+build.gradle  src  username.txt  writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ cd src/
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src$ ls
+main
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src$ cr[Kd[K[Kls
+main
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src$ cd main 
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main$ ls
+java
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main$ cd ,[Kmain [K[K[K[K[Kjava
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main/java$ ls
+lab1
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main/java$ cd ;ab1[K[K[K[Klab1
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main/java/lab1$ ls
+Hello.java
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main/java/lab1$ cd java[K[K[K[KHello.j ava
+bash: cd: Hello.java: Not a directory
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main/java/lab1$ gradle bui ld
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :buildEnvironment[m[19D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :buildEnvironment[m[19D[1B[2A[0K
+[1m> Task :buildEnvironment[m
+
+[1m------------------------------------------------------------[m
+[1mRoot project[m
+[1m------------------------------------------------------------[m
+
+[32mclasspath[39m
+[33mNo dependencies[39m
+
+A web-based, searchable dependency report is available by adding the [1m--scan[m option.
+
+[32;1mBUILD SUCCESSFUL[0;39m in 3s
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :buildEnvironment[m[19D[1B[2A[2K[1B[2K[1A[0mevansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main/java/lab1$ gradle run  
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mevansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main/java/lab1$ gradle rub [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kn[Kun [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kn
+[0m
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mevansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main/java/lab1$ [Kevansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403/src/main/java/lab1$ cd
+evansa30@CF165-21:~$ cd
+evansa30@CF165-21:~$ cd
+evansa30@CF165-21:~$ ls
+csci241    Downloads	 java_error_in_IDEA_10497.log  Music	 Templates
+Desktop    gitlab-demo	 java_error_in_IDEA_4289.log   Pictures  typescript
+Documents  IdeaProjects  java_error_in_IDEA_4920.log   Public	 Videos
+evansa30@CF165-21:~$ cd csci241
+evansa30@CF165-21:~/csci241$ ls
+lab-1-AndrewEvans6403  writeup.txt
+evansa30@CF165-21:~/csci241$ cd [1Plscd csci241ls[Kcd lab-1-AndrewEvans6403/
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ ls
+build.gradle  src  username.txt  writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ gradle run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/evansa30/csci241/lab-1-AndrewEvans6403/build.g[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/evansa30/csci241/lab-1-AndrewEvans6403/build.g[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 1s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mevansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ v[Kvim[K[K[Kcs[K[Kvim sr[K[K[K[K[K[Kls
+build  build.gradle  src  username.txt	writeup.txt
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ vim sr[Krc/main.[K/java/lav[Kb1.[K/he[K[KHello, [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ko. java
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"src/main/java/lab1/Hello.java" 7L, 131C[>c[1;1H[35mpackage[m lab1;
+
+[32mpublic[m [32mclass[m Hello{
+    [32mpublic[m [32mstatic[m [32mvoid[m main(String[] args){[5;9HSystem.out.println([31m"Hello World!"[m);
+    }
+}
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll]2;Hello.java (~/csci241/lab-1-And...vans6403/src/main/java/lab1) - VIM]1;Hello.java[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H[38;5;81mpackage[m lab1;
+
+[38;5;121mpublic[m [38;5;121mclass[m Hello{
+    [38;5;121mpublic[m [38;5;121mstatic[m [38;5;121mvoid[m main(String[] args){[5;9HSystem.out.println([95m"Hello World!"[m);
+    }
+}
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll"src/main/java/lab1/Hello.java" 7L, 131C[1;1HP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;65H2[5;2H[?12l[?25h[?25l[24;65H3[5;3H[?12l[?25h[?25l[24;65H4[5;4H[?12l[?25h[?25l[24;65H5[5;5H[?12l[?25h[?25l[24;65H6[5;6H[?12l[?25h[?25l[24;65H7[5;7H[?12l[?25h[?25l[24;65H8[5;8H[?12l[?25h[?25l[24;65H9[5;9H[?12l[?25h[?25l[24;65H10[5;10H[?12l[?25h[?25l[24;66H1[5;11H[?12l[?25h[?25l[24;66H2[5;12H[?12l[?25h[?25l[24;66H3[5;13H[?12l[?25h[?25l[24;66H4[5;14H[?12l[?25h[?25l[24;66H5[5;15H[?12l[?25h[?25l[24;66H6[5;16H[?12l[?25h[?25l[24;66H7[5;17H[?12l[?25h[?25l[24;66H8[5;18H[?12l[?25h[?25l[24;66H9[5;19H[?12l[?25h[?25l[24;65H20[5;20H[?12l[?25h[?25l[24;66H1[5;21H[?12l[?25h[?25l[24;66H2[5;22H[?12l[?25h[?25l[24;66H3[5;23H[?12l[?25h[?25l[24;66H4[5;24H[?12l[?25h[?25l[24;66H5[5;25H[?12l[?25h[?25l[24;66H6[5;26H[?12l[?25h[?25ln[46m([14C)[m[24;66H7[5;27H[?12l[?25h[?25l([14C)[24;66H8[5;28H[?12l[?25h[?25l[24;66H9[5;29H[?12l[?25h[?25l[24;65H30[5;30H[?12l[?25h[?25l[24;66H1[5;31H[?12l[?25h[?25l[24;66H2[5;32H[?12l[?25h[?25l[24;66H3[5;33H[?12l[?25h[?25l[24;66H4[5;34H[?12l[?25h[?25l[24;66H5[5;35H[?12l[?25h[?25l[24;66H6[5;36H[?12l[?25h[?25l[24;66H7[5;37H[?12l[?25h[?25l[24;66H8[5;38H[?12l[?25h[?25l[24;66H9[5;39H[?12l[?25h[?25l[24;65H40[5;40H[?12l[?25h[?25l[24;66H1[5;41H[?12l[?25h[?25l[5;27H[46m([14C)[m[24;66H2[5;42H[?12l[?25h[?25l[5;27H([14C)[24;66H1[5;41H[?12l[?25h[?25l[24;66H0[5;40H[?12l[?25h[?25l[24;63H4[4;40H[?12l[?25h[?25l[24;63H5[5;40H[?12l[?25h[?25l[24;65H39[5;39H[?12l[?25h[?25l[24;66H8[5;38H[?12l[?25h[?25l[24;66H9[5;39H[?12l[?25h[?25l[24;65H40[5;40H[?12l[?25h[?25l[24;65H39[5;39H[?12l[?25h[?25l[24;66H8[5;38H[?12l[?25h[?25l[24;66H7[5;37H[?12l[?25h[?25l[24;66H6[5;36H[?12l[?25h[?25l[24;66H5[5;35H[?12l[?25h[?25l[24;66H4[5;34H[?12l[?25h[?25l[24;66H5[5;35H[?12l[?25h[?25l[24;66H6[5;36H[?12l[?25h[?25l[24;66H7[5;37H[?12l[?25h[?25l[24;66H8[5;38H[?12l[?25h[?25l[24;66H9[5;39H[?12l[?25h[?25l[24;65H40[5;40H[?12l[?25h[?25l[24;66H1[5;41H[?12l[?25h[?25l[5;27H[46m([14C)[m[24;66H2[5;42H[?12l[?25h[?25l[5;27H([14C)[24;66H3[5;43H[?12l[?25h[?25l[5;27H[46m([14C)[m[24;66H2[5;42H[?12l[?25h[?25l[5;27H([14C)[24;66H3[5;43H[?12l[?25h[?25l[5;27H[46m([14C)[m[24;66H2[5;42H[?12l[?25h[?25l[5;27H([14C)[24;66H1[5;41H[?12l[?25h[?25l[24;66H0[5;40H[?12l[?25h[?25l[24;65H39[5;39H[?12l[?25h[?25l[24;65H40[5;40H[?12l[?25h[?25l[24;66H1[5;41H[?12l[?25h[?25l[5;27H[46m([14C)[m[24;66H2[5;42H[?12l[?25h[?25l[5;27H([14C)[24;66H3[5;43H[?12l[?25h[?25l[5;27H[46m([14C)[m[24;66H2[5;42H[?12l[?25h[?25l[5;27H([14C)[24;66H1[5;41H[?12l[?25h[?25l[24;66H0[5;40H[?12l[?25h[?25l[24;65H39[5;39H[?12l[?25h[?25l[24;66H8[5;38H[?12l[?25h[?25l[24;66H7[5;37H[?12l[?25h[?25l[24;66H6[5;36H[?12l[?25h[?25l[24;66H5[5;35H[?12l[?25h[?25l[24;66H4[5;34H[?12l[?25h[?25l[24;66H3[5;33H[?12l[?25h[?25l[24;66H2[5;32H[?12l[?25h[?25l[24;66H1[5;31H[?12l[?25h[?25l[24;66H0[5;30H[?12l[?25h[?25l[24;65H29[5;29H[?12l[?25h[?25l[24;66H8[5;28H[?12l[?25h[24;1H
+[?1l>[?1049l]2;Terminal]1;Terminal
+[1]+  Stopped                 vim src/main/java/lab1/Hello.java
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ vim src/main/java/lab1/Hello.jjava
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name "src/main/java/lab1/.Hello.java.swp"
+[10Cowned by: evansa30   dated: Thu Apr 11 11:05:04 2019
+[9Cfile name: ~evansa30/csci241/lab-1-AndrewEvans6403/src/main/java/lab1/
+[23;80HH[24;1Hello.java
+[10Cmodified: no
+[9Cuser name: evansa30   host name: CF165-21
+[8Cprocess ID: 11921 (still running)
+While opening file "src/main/java/lab1/Hello.java"
+[13Cdated: Thu Apr 11 10:05:36 2019
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r src/main/java/lab1/Hello.jav
+[23;80Ha[24;1H"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "src/main/java/lab1/.Hello.ja
+[23;80Hv[24;1Ha.swp"
+    to avoid this message.
+
+[32mSwap file "src/main/java/lab1/.Hello.java.swp" already exists![m
+[32m-- More --[?12l[?25h[m[24;1H[K[24;1H[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [m[24;1H[K[24;1H
+[?1l>[?1049levansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ vim src/main/java/lab1/Hello.jjava[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvim src/main/java/lab1/Hello.jjava[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvim src/main/java/lab1/Hello.jjava
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name "src/main/java/lab1/.Hello.java.swp"
+[10Cowned by: evansa30   dated: Thu Apr 11 11:05:04 2019
+[9Cfile name: ~evansa30/csci241/lab-1-AndrewEvans6403/src/main/java/lab1/
+[23;80HH[24;1Hello.java
+[10Cmodified: no
+[9Cuser name: evansa30   host name: CF165-21
+[8Cprocess ID: 11921 (still running)
+While opening file "src/main/java/lab1/Hello.java"
+[13Cdated: Thu Apr 11 10:05:36 2019
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r src/main/java/lab1/Hello.jav
+[23;80Ha[24;1H"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "src/main/java/lab1/.Hello.ja
+[23;80Hv[24;1Ha.swp"
+    to avoid this message.
+
+[32mSwap file "src/main/java/lab1/.Hello.java.swp" already exists![m
+[32m-- More --[?12l[?25h[m[24;1H[K[24;1H[32m-- More --[m[24;1H[K[24;1H[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [m[24;1H[K[?25l[24;1H"src/main/java/lab1/Hello.java" 7L, 131C
+Using swap file "src/main/java/lab1/.Hello.java.swp"
+Original file "~/csci241/lab-1-AndrewEvans6403/src/main/java/lab1/Hello.java"
+Recovery completed. Buffer contents equals file contents.
+You may want to delete the .swp file now.
+
+
+[>c[32mPress ENTER or type command to continue[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[m[H[2J[?25l[1;1H[38;5;81mpackage[m lab1;
+
+[38;5;121mpublic[m [38;5;121mclass[m Hello{
+    [38;5;121mpublic[m [38;5;121mstatic[m [38;5;121mvoid[m main(String[] args){[5;9HSystem.out.println([95m"Hello World!"[m);
+    }
+}
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll]2;Hello.java (~/csci241/lab-1-And...vans6403/src/main/java/lab1) - VIM]1;Hello.java[1;1H[?12l[?25h[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H6[6;1H[?12l[?25h[?25l[3;19H[46m{[7;1H}[m[24;63H7[7;1H[?12l[?25h[?25l[3;19H{[7;1H}[24;63H6[6;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;65H2[5;2H[?12l[?25h[?25l[24;65H3[5;3H[?12l[?25h[?25l[24;65H4[5;4H[?12l[?25h[?25l[24;65H5[5;5H[?12l[?25h[?25l[24;65H6[5;6H[?12l[?25h[?25l[24;65H7[5;7H[?12l[?25h[?25l[24;65H8[5;8H[?12l[?25h[?25l[24;65H9[5;9H[?12l[?25h[?25l[4;43H[46m{[6;5H}[m[24;63H6,5[6;5H[?12l[?25h[?25l[3;19H[46m{[m[4;43H{[6;5H}
+[46m}[m[24;63H7,1[7;1H[?12l[?25h[?25l[3;19H{[4;43H[46m{[6;5H}[m
+}[24;63H6,5[6;5H[?12l[?25h[?25l[4;43H{[6;5H}[24;63H5,9[5;9H[?12l[?25h[?25l[24;65H10[5;10H[?12l[?25h[?25l[24;66H1[5;11H[?12l[?25h[?25l[24;66H2[5;12H[?12l[?25h[?25l[24;66H3[5;13H[?12l[?25h[?25l[24;66H4[5;14H[?12l[?25h[?25l[24;66H5[5;15H[?12l[?25h[?25l[24;66H6[5;16H[?12l[?25h[?25l[24;66H7[5;17H[?12l[?25h[?25l[24;66H8[5;18H[?12l[?25h[?25l[24;66H9[5;19H[?12l[?25h[?25l[24;65H20[5;20H[?12l[?25h[?25l[24;66H1[5;21H[?12l[?25h[?25l[24;66H2[5;22H[?12l[?25h[?25l[24;66H3[5;23H[?12l[?25h[?25l[24;66H4[5;24H[?12l[?25h[?25l[24;66H5[5;25H[?12l[?25h[?25l[24;66H6[5;26H[?12l[?25h[?25ln[46m([14C)[m[24;66H7[5;27H[?12l[?25h[?25l([14C)[24;66H8[5;28H[?12l[?25h[?25l[24;66H9[5;29H[?12l[?25h[?25l[24;65H30[5;30H[?12l[?25h[?25l[24;66H1[5;31H[?12l[?25h[?25l[24;66H2[5;32H[?12l[?25h[?25l[24;66H3[5;33H[?12l[?25h[?25l[24;66H4[5;34H[?12l[?25h[?25l[24;66H5[5;35H[?12l[?25h[?25l[24;66H6[5;36H[?12l[?25h[?25l[24;66H7[5;37H[?12l[?25h[?25l[24;66H8[5;38H[?12l[?25h[?25l[24;66H9[5;39H[?12l[?25h[?25l[24;65H40[5;40H[?12l[?25h[?25l[24;65H39[5;39H[?12l[?25h[?25l[24;66H8[5;38H[?12l[?25h[?25l[24;66H7[5;37H[?12l[?25h[?25l[24;66H6[5;36H[?12l[?25h[?25l[24;66H5[5;35H[?12l[?25h[?25l[24;66H4[5;34H[?12l[?25h[?25l[24;66H5[5;35H[?12l[?25h[?25l[24;66H6[5;36H[?12l[?25h[?25l[24;66H7[5;37H[?12l[?25h[?25l[24;66H8[5;38H[?12l[?25h[?25l[24;66H9[5;39H[?12l[?25h[?25l[24;65H40[5;40H[?12l[?25h[?25l[24;66H1[5;41H[?12l[?25h[?25l[5;27H[46m([14C)[m[24;66H2[5;42H[?12l[?25h[?25l[5;27H([14C)[24;66H3[5;43H[?12l[?25h[?25l[5;27H[46m([14C)[m[24;66H2[5;42H[?12l[?25h[?25l[4;43H[46m{[m[5;27H([14C)
+    [46m}[m[24;63H6,5 [6;5H[?12l[?25h[?25l[3;19H[46m{[m[4;43H{[6;5H}
+[46m}[m[24;63H7,1[7;1H[?12l[?25h[?25l[3;19H{[4;43H[46m{[6;5H}[m
+}[24;63H6,5[6;5H[?12l[?25h[?25l[4;43H{[6;5H}[24;63H5[5;5H[?12l[?25h[?25l[24;65H6[5;6H[?12l[?25h[?25l[24;65H7[5;7H[?12l[?25h[?25l[24;65H8[5;8H[?12l[?25h[?25l[24;65H9[5;9H[?12l[?25h[?25l[24;65H10[5;10H[?12l[?25h[?25l[24;66H1[5;11H[?12l[?25h[?25l[24;66H2[5;12H[?12l[?25h[?25l[24;66H3[5;13H[?12l[?25h[?25l[24;66H4[5;14H[?12l[?25h[?25l[24;66H5[5;15H[?12l[?25h[?25l[24;66H6[5;16H[?12l[?25h[?25l[24;66H7[5;17H[?12l[?25h[?25l[24;66H8[5;18H[?12l[?25h[?25l[24;66H9[5;19H[?12l[?25h[?25l[24;65H20[5;20H[?12l[?25h[?25l[24;66H1[5;21H[?12l[?25h[?25l[24;66H2[5;22H[?12l[?25h[?25l[24;66H3[5;23H[?12l[?25h[?25l[24;66H4[5;24H[?12l[?25h[?25l[24;66H5[5;25H[?12l[?25h[?25l[24;66H6[5;26H[?12l[?25h[?25ln[46m([14C)[m[24;66H7[5;27H[?12l[?25h[?25l([14C)[24;66H8[5;28H[?12l[?25h[?25l[24;66H9[5;29H[?12l[?25h[?25l[24;65H30[5;30H[?12l[?25h[?25l[24;66H1[5;31H[?12l[?25h[?25l[24;66H2[5;32H[?12l[?25h[?25l[24;66H3[5;33H[?12l[?25h[?25l[24;66H4[5;34H[?12l[?25h[?25l[24;66H5[5;35H[?12l[?25h[?25l[24;66H6[5;36H[?12l[?25h[?25l[24;66H7[5;37H[?12l[?25h[?25l[24;66H8[5;38H[?12l[?25h[?25l[24;66H9[5;39H[?12l[?25h[?25l[24;65H40[5;40H[?12l[?25h[?25l[24;66H1[5;41H[?12l[?25h[?25l[5;27H[46m([14C)[m[24;66H2[5;42H[?12l[?25h[?25l[5;27H([14C)[24;66H3[5;43H[?12l[?25h[?25l[24;1HType  :quit<Enter>  to exit Vim[24;63H[K[24;63H5,43[10CAll[5;43H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hQ[?25l[?12l[?25h[?25l[97m[41mE492: Not an editor command: Q[m[32C5,43[10CAll[5;43H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l]2;Terminal]1;Terminal[24;1H[K[24;1H[?1l>[?12l[?25h[?1049levansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ vim src/main/java/lab1/Hello.jjava
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name "src/main/java/lab1/.Hello.java.swp"
+[10Cowned by: evansa30   dated: Thu Apr 11 11:05:04 2019
+[9Cfile name: ~evansa30/csci241/lab-1-AndrewEvans6403/src/main/java/lab1/
+[23;80HH[24;1Hello.java
+[10Cmodified: no
+[9Cuser name: evansa30   host name: CF165-21
+[8Cprocess ID: 11921 (still running)
+While opening file "src/main/java/lab1/Hello.java"
+[13Cdated: Thu Apr 11 10:05:36 2019
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r src/main/java/lab1/Hello.jav
+[23;80Ha[24;1H"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "src/main/java/lab1/.Hello.ja
+[23;80Hv[24;1Ha.swp"
+    to avoid this message.
+
+[32mSwap file "src/main/java/lab1/.Hello.java.swp" already exists![m
+[32m-- More --[?12l[?25h[m[24;1H[K[24;1H[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [m[24;1H[K[?25l[24;1H"src/main/java/lab1/Hello.java" 7L, 131C[>c[27m[23m[m[H[2J[1;1H[38;5;81mpackage[m lab1;
+
+[38;5;121mpublic[m [38;5;121mclass[m Hello{
+    [38;5;121mpublic[m [38;5;121mstatic[m [38;5;121mvoid[m main(String[] args){[5;9HSystem.out.println([95m"Hello World!"[m);
+    }
+}
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll]2;Hello.java (~/csci241/lab-1-And...vans6403/src/main/java/lab1) - VIM]1;Hello.java[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;63H[K[24;63H4,9[11CAll]2;Hello.java + (~/csci241/lab-1-A...vans6403/src/main/java/lab1) - VIM]1;Hello.java[4;9H[?12l[?25h[?25l[3;19H[46m{[5;5H}[m[24;63H5,5[5;5H[?12l[?25h[24;1H
+[?1l>[?1049l]2;Terminal]1;Terminal
+[2]+  Stopped                 vim src/main/java/lab1/Hello.java
+evansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ vim src/main/java/lab1/Hello.jjava
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name "src/main/java/lab1/.Hello.java.swp"
+[10Cowned by: evansa30   dated: Thu Apr 11 11:05:04 2019
+[9Cfile name: ~evansa30/csci241/lab-1-AndrewEvans6403/src/main/java/lab1/
+[23;80HH[24;1Hello.java
+[10Cmodified: no
+[9Cuser name: evansa30   host name: CF165-21
+[8Cprocess ID: 11921 (still running)
+While opening file "src/main/java/lab1/Hello.java"
+[13Cdated: Thu Apr 11 10:05:36 2019
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r src/main/java/lab1/Hello.jav
+[23;80Ha[24;1H"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "src/main/java/lab1/.Hello.ja
+[23;80Hv[24;1Ha.swp"
+    to avoid this message.
+
+[32mSwap file "src/main/java/lab1/.Hello.java.swp" already exists![m
+[32m-- More --[?12l[?25h[m[24;1H[K[24;1H[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [m[24;1H[K[?25l[24;1H"src/main/java/lab1/Hello.java" 7L, 131C
+Swap files found:
+   Using specified name:
+1.    .Hello.java.swo
+[10Cowned by: evansa30   dated: Thu Apr 11 11:10:15 2019
+[9Cfile name: ~evansa30/csci241/lab-1-AndrewEvans6403/src/main/java/lab1/
+[23;80HH[24;1Hello.java
+[10Cmodified: YES
+[9Cuser name: evansa30   host name: CF165-21
+[8Cprocess ID: 11965 (still running)
+2.    .Hello.java.swp
+[10Cowned by: evansa30   dated: Thu Apr 11 11:05:04 2019
+[9Cfile name: ~evansa30/csci241/lab-1-AndrewEvans6403/src/main/java/lab1/
+[23;80HH[24;1Hello.java
+[10Cmodified: no
+[9Cuser name: evansa30   host name: CF165-21
+[8Cprocess ID: 11921 (still running)
+   In directory ~/tmp:
+      -- none --
+   In directory /var/tmp:
+      -- none --
+   In directory /tmp:
+      -- none --
+[32m-- More --[?12l[?25h[m[24;1H[K[24;1H
+[32m-- More --[m[1;1H[L[1;1H[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [m"src/main/java/lab1/Hello.java" 7L, 131C[24;1H[32m-- More -- SPACE/d/j: screen/page/line down, b/u/k: up, q: quit [m[24;1H[K[24;1HEnter number of swap file to use (0 to quit): 
+[>c[27m[23m[m[H[2J[?25l[1;1H[38;5;81mpackage[m lab1;
+
+[38;5;121mpublic[m [38;5;121mclass[m Hello{
+    [38;5;121mpublic[m [38;5;121mstatic[m [38;5;121mvoid[m main(String[] args){[5;9HSystem.out.println([95m"Hello World!"[m);
+    }
+}
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll]2;Hello.java (~/csci241/lab-1-And...vans6403/src/main/java/lab1) - VIM]1;Hello.java[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;63H2,0-1[2;1H[?12l[?25h[?25l[24;63H3,1  [3;1H[?12l[?25h[?25l[24;63H4[4;1H[?12l[?25h[?25l[24;63H5[5;1H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h[?25l]2;Terminal]1;Terminal[24;1H[K[24;1H[?1l>[?12l[?25h[?1049levansa30@CF165-21:~/csci241/lab-1-AndrewEvans6403$ vim src/main/java/lab1/Hello.jjava
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name "src/main/java/lab1/.Hello.java.swp"
+[10Cowned by: evansa30   dated: Thu Apr 11 11:05:04 2019
+[9Cfile name: ~evansa30/csci241/lab-1-AndrewEvans6403/src/main/java/lab1/
+[23;80HH[24;1Hello.java
+[10Cmodified: no
+[9Cuser name: evansa30   host name: CF165-21
+[8Cprocess ID: 11921 (still running)
+While opening file "src/main/java/lab1/Hello.java"
+[13Cdated: Thu Apr 11 10:05:36 2019
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r src/main/java/lab1/Hello.jav
+[23;80Ha[24;1H"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "src/main/java/lab1/.Hello.ja
+[23;80Hv[24;1Ha.swp"
+    to avoid this message.
+
+[32mSwap file "src/main/java/lab1/.Hello.java.swp" already exists![m
+[32m-- More --[?12l[?25h[m[24;1H[K[24;1H[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [m[24;1H[K[?25l[24;1H"src/main/java/lab1/Hello.java" 7L, 131C[>c[27m[23m[m[H[2J[1;1H[38;5;81mpackage[m lab1;
+
+[38;5;121mpublic[m [38;5;121mclass[m Hello{
+    [38;5;121mpublic[m [38;5;121mstatic[m [38;5;121mvoid[m main(String[] args){[5;9HSystem.out.println([95m"Hello World!"[m);
+    }
+}
+[94m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll]2;Hello.java (~/csci241/lab-1-And...vans6403/src/main/java/lab1) - VIM]1;Hello.java[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2
